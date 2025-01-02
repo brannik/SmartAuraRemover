@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Title: Smart Aura Remover
 ## Notes: Removes specific auras before mounting
-## Author: YourName
+## Author: Brannik
 ## Version: 1.0
 
 AuraList.lua

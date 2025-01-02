@@ -107,10 +107,10 @@ SlashCmdList["SMARTAURAREMOVER"] = function(msg)
     -- Determine which mount to cast based on the player's location
     if IsFlyableArea() and flyingMount then
         CastSpellByName(flyingMount)
-        UIErrorsFrame:AddMessage("Casting flying mount: " .. flyingMount, 0.0, 1.0, 0.0, 53, 5)
+        --UIErrorsFrame:AddMessage("Casting flying mount: " .. flyingMount, 0.0, 1.0, 0.0, 53, 5)
     else
         CastSpellByName(groundMount)
-        UIErrorsFrame:AddMessage("Casting ground mount: " .. groundMount, 0.0, 1.0, 0.0, 53, 5)
+        --UIErrorsFrame:AddMessage("Casting ground mount: " .. groundMount, 0.0, 1.0, 0.0, 53, 5)
     end
 end
 
